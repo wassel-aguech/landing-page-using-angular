@@ -1,0 +1,42 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 63vh;
+    position: relative;
+}
+
+
+.btnlogin{
+    width: 150px;
+}
+.text{
+    width: 40%;
+}
+h1{
+    color: white;
+}
+
+.imageliste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+ul li img{
+    width: 50px;
+    transition: 0.5s;
+}
+ul li img:hover{
+    transform: scale(1.2);
+}
+
+ul{margin-left: 35%;}

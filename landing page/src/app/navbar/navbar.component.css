@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid gold;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+ul li:hover{
+    background-color:yellow;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo{
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.logo img{
+    width: 60px;
+}
+
